@@ -12,5 +12,4 @@ parser$add_argument(
 args <- parser$parse_args()
 
 hello_message(args$hello_object)
-print("hi")
 message("hello version: ", packageVersion("hello"))
