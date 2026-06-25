@@ -1,8 +1,8 @@
-## demo-syncweaver-host
+# demo-syncweaver-host
 
 Example host repository (such as for a Code Ocean capsule) to demonstrate syncweaver
 
-### Initial setup
+## Initial setup
 
 ```sh
 mkdir -p code/ .github/workflows/
@@ -18,3 +18,13 @@ te-subdir modules/hello --path code/hello
 ```
 
 Create an entry point script with a CLI in `code/main.R`
+
+Add this repo to the orchestrator repo's `.github/host-repositories.ym` file (e.g. in CCBR/syncweaver).
+
+## Usage
+
+If the orchestrator repo is set up, sources in this repo will be updated automatically when the upstream source repo cuts a new release.
+Sources can be manually updated with `syncweaver update`.
+
+If a developer modifies code in a source, run `syncweaver patch` to track the changes.
+Optionally, contribute changes from a patch back to the source with `syncweaver contribute`.
