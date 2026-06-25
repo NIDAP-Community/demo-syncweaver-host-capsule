@@ -1,5 +1,5 @@
+library(argparse)
 devtools::load_all("code/hello")
-devtools::load_all("code/MOSuite")
 
 # parse CLI arguments
 parser <- ArgumentParser(description = "demo capsule")
@@ -14,4 +14,3 @@ args <- parser$parse_args()
 hello_message(args$hello_object)
 
 message("hello version: ", packageVersion("hello"))
-message("MOSuite version: ", packageVersion("MOSuite"))
