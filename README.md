@@ -2,6 +2,11 @@
 
 Example host repository (such as for a Code Ocean capsule) to demonstrate syncweaver
 
+See also:
+
+- https://github.com/NIDAP-Community/demo-syncweaver-source
+- https://github.com/CCBR/syncweaver
+
 ## Initial setup
 
 ```sh
