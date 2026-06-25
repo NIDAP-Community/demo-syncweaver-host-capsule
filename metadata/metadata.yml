@@ -1,0 +1,8 @@
+metadata_version: 1
+name: demo-syncweaver-host
+description: demonstrating how source code in capsule host repos are synced and updated
+  with syncweaver
+tags:
+- demo
+authors:
+- name: Kelly Sovacool
