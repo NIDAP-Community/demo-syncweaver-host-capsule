@@ -1,4 +1,4 @@
-# demo-syncweaver-host
+# demo-syncweaver-host-capsule
 
 Example host repository (such as for a Code Ocean capsule) to demonstrate syncweaver
 
@@ -13,7 +13,7 @@ syncweaver templates add syncweaver-host-contribute-patch
 
 # add sources to the host
 syncweaver add --repo-url CCBR/MOSuite --ref v0.3.1 --path code/MOSuite
-syncweaver add --repo-url NIDAP-Community/demo-syncweaver-source --remo
+syncweaver add --repo-url NIDAP-Community/demo-syncweaver-source-monorepo --remo
 te-subdir modules/hello --path code/hello
 ```
 

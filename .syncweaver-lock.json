@@ -1,5 +1,5 @@
 {
-  "name": "demo-syncweaver-host",
+  "name": "demo-syncweaver-host-capsule",
   "homePage": "",
   "sources": {
     "code/MOSuite": {
@@ -11,7 +11,7 @@
       ]
     },
     "code/hello": {
-      "repo_url": "https://github.com/NIDAP-Community/demo-syncweaver-source",
+      "repo_url": "https://github.com/NIDAP-Community/demo-syncweaver-source-monorepo",
       "ref": "main",
       "git_sha": "f7e8dfdf2925290d71d19c8d9e87c6e3b3124499",
       "installed_by": [
