@@ -12,8 +12,8 @@
     },
     "code/hello": {
       "repo_url": "https://github.com/NIDAP-Community/demo-syncweaver-source-monorepo",
-      "ref": "main",
-      "git_sha": "022c4f49e582950eb944fb38311d8f1faa0e4324",
+      "ref": "v0.2.0",
+      "git_sha": "0ee0e82d5f39a895dcc2707cd471135135f5f21d",
       "installed_by": [
         "syncweaver"
       ],
