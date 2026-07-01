@@ -4,8 +4,9 @@ Example host repository (such as for a Code Ocean capsule) to demonstrate syncwe
 
 See also:
 
-- https://github.com/NIDAP-Community/demo-syncweaver-source
-- https://github.com/CCBR/syncweaver
+- this capsule on Code Ocean: https://poc-nci.codeocean.io/capsule/8221798
+- demo source repo: https://github.com/NIDAP-Community/demo-syncweaver-source
+- syncweaver: https://github.com/CCBR/syncweaver
 
 ## Initial setup
 
