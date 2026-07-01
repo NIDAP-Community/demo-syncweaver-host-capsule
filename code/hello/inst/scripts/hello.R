@@ -1,3 +1,5 @@
 args <- commandArgs(trailingOnly = TRUE)
 x <- args[[1]]
-hello::hello_message(x)
+if (require(hello)) {
+  hello::hello_message(x)
+}
